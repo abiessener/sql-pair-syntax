@@ -10,7 +10,7 @@ UPDATE syntax_practice SET account_balance=10.00 WHERE account_balance=0 AND tra
 
 --Select all users that have attempted 9 or more transactions.
 
-SELECT * FROM syntax_practice WHERE transactions_attempted > 9; 
+SELECT * FROM syntax_practice WHERE transactions_attempted >= 9; 
 
 
 --Get the username and account balance of the 3 users with the highest balances, sort highest to lowest balance. NOTE: Research LIMIT
